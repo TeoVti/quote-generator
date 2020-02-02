@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    background-image: url(pic.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+  }
+  #top {      
+    text-align: center;
+    padding-top: 40px;
+  }
+  #bottom {
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size: 40px;
+  }
+#btn {
+    border-radius: 8px;
+    background-color: rgb(10, 84, 109);
+    font-size: 36px;
+    border: none;
+    color: white;
+}
+#btn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+  }
